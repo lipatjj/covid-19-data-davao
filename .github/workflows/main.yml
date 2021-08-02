@@ -13,7 +13,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
         with: 
-          repository: bryandonmarc/covid-tracker-v3
+          repository: lipatjj/covid-tracker-v3
           token: ${{ secrets.PRIVATE_TOKEN_GITHUB }}
 
       - name: Pull & update submodules recursively
